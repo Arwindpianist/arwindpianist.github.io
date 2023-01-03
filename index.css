@@ -36,7 +36,14 @@ body {
     font-family: sans-serif;
     margin: 75px, 25px;
     }
-    
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: 300%;
+        font-family: sans-serif;
+        margin: 75px, 25px;
+        }
+
     p {
     color: white;
     text-align: center;

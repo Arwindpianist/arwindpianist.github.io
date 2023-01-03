@@ -9,11 +9,20 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
     }
     .container h1{
         font-size: 80px;
         font-weight: 600;
     }
+    .container h2{
+        font-size: 80px;
+        font-weight: 600;
+        color: lightskyblue;
+        scroll-snap-align: start;
+    }
+
     .auto-type{
         color:lightskyblue;
     }

@@ -15,7 +15,10 @@ body {
         font-weight: 600;
     }
     .auto-type{
-        color:yellow;
+        color:lightskyblue;
+    }
+    .span h1{
+        color:lightskyblue;
     }
     h1 {
     color: white;

@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="index.css">
-<title>Arwindpianist</title>
+    <link rel="stylesheet" href="index.css">
+        <title>Arwindpianist</title>
 </head>
 <body>
-<div class="container">
-    <h1>I'm Arwindpianist</h1>
-</div>
-<img src="Colours=White.svg" alt="Arwindpianist Logo" width="150" height = "150" class="center">
-<p>Welcome to my website!</p> 
-<p>Margin test</p>
+    <div class="container">
+        <h1>I'm <span class="auto-type"></span></h1>
+    </div>
+    <img src="Colours=White.svg" alt="Arwindpianist Logo" width="150" height = "150" class="center">
+    <p>Welcome to my website!</p> 
+    <p>Margin test</p>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Arwindpianist","a Musician", "a Web Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    
+    </script> 
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 </body>
 </html>
